@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(authRouter);
 
-const DB = "mongodb+srv://leo:Zamimughal56.@cluster0.m0zmgfm.mongodb.net/?retryWrites=true&w=majority";
+const DB = "Give Your Cluster URL here";
 
 mongoose.connect(DB).then(
 ()=> {
